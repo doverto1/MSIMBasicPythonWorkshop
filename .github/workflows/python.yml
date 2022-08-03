@@ -28,7 +28,7 @@ jobs:
       run: python Lesson2Variables.py
     - run: echo "🐍 This job's status is ${{ job.status }}."
   third_lesson:
-    name: Lesson 2 Variables
+    name: Lesson 3 Number Operations
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -36,5 +36,5 @@ jobs:
       with:
         python-version: '3.x'
     - name: run script
-      run: python Lesson2Variables.py
+      run: python Lesson3NumOps.py
     - run: echo "🐍 This job's status is ${{ job.status }}."
