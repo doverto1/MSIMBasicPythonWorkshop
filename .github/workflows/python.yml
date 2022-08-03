@@ -10,11 +10,12 @@ jobs:
     name: Lesson 1 Printing
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v3
     - uses: actions/setup-python@v4
       with:
         python-version: '3.x'
     - name: run script
-      run: python Lesson2Variables.py
+      run: python Lesson1Print.py
     - run: echo "🐍 This job's status is ${{ job.status }}."
   second_lesson:
     name: Lesson 2 Variables
