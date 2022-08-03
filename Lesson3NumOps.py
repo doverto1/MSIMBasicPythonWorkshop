@@ -45,3 +45,17 @@ print("3 ^ 3 = ", 3 ^ 3)
 print("3 & 0 = ", 3 & 0)
 
 print()
+
+print("Comparisons: > >= < <= == in not in")
+
+print("5 > 2?", 5 > 2)
+
+print("5 == 3?", 5 == 3)
+
+print ("5 <= 4?", 5 <= 4)
+
+print("2 in (1, 2, 3)", 2 in (1, 2, 3))
+
+print ("5 not in (1, 2, 3)?", 5 not in (1, 2, 3))
+
+print ()       
