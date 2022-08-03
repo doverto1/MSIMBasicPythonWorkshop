@@ -48,14 +48,22 @@ print()
 
 print("Comparisons: > >= < <= == in not in")
 
-print("5 > 2?", 5 > 2)
+print("5 > 2?", 5 > 2) #True
 
-print("5 == 3?", 5 == 3)
+print("5 == 3?", 5 == 3) #False
 
-print ("5 <= 4?", 5 <= 4)
+print ("5 <= 4?", 5 <= 4) #True
 
-print("2 in (1, 2, 3)", 2 in (1, 2, 3))
+print("2 in (1, 2, 3)", 2 in (1, 2, 3)) #True
 
-print ("5 not in (1, 2, 3)?", 5 not in (1, 2, 3))
+print ("5 not in (1, 2, 3)?", 5 not in (1, 2, 3)) #True
 
-print ()       
+print ()
+
+print("Boolean operations: AND OR NOT")
+
+print("5 > 2 AND 5 == 2?", (5 > 2) and (5 == 2)) #False
+
+print("5 > 2 OR 5 == 2?", (5 > 2) or (5 == 2)) #True
+
+print ("5 NOT == 2?", not (5 == 2)) #True    
